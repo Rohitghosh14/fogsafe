@@ -1,0 +1,22 @@
+# environment (rebuilt from pyproject.toml and uv.lock)
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# data and models: big, never push
+data/
+weights/
+runs/
+checkpoints/
+*.npy
+*.pt
+*.pth
+*.zip
+
+# generated outputs (later, copy final figures into docs/figures)
+results/
+
+# OS files
+.DS_Store
+Thumbs.db
